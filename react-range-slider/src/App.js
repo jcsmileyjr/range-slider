@@ -2,6 +2,7 @@ import './App.css';
 
 /**
  * Simple React project featuring a range input displaying a dollar amount
+ * 
  * TODO - Setup the layout (background and center div) - DONE
  * TODO - Setup basic HTML elements for the project - DONE
  * TODO - Setup basic styling of the project
