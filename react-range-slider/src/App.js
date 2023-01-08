@@ -7,6 +7,7 @@ import './App.css';
  * TODO - Setup basic HTML elements for the project - DONE
  * TODO - Setup basic styling of the project
  * TODO - Setup basic functionlaity of the project
+ *  onmousemove()
  * TODO - Fix issues
  * TODO - Setup basic README of the project
  */
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
         <main>
             <h1><span className="range__amountDollarSign--style">$</span>16.00</h1>
-            <input className="range__inputRange--style" type="range" min="1" max="20" value="0" />
+            <input className="range__inputRange--style" type="range" min="1" max="20"  step="1" />
             <button className="range__buyButton--style" type="button">Buy Now</button>
         </main>
     </div>
