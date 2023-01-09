@@ -35,6 +35,7 @@ function App() {
           min="1"
           max="20"
           step="1"
+          value={value}
           onChange={(e) => setValue(e.target.value)}
         />
         <button className="range__buyButton--style" type="button">
