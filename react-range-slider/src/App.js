@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <main>
         <h1>
-          <span className="range__amountDollarSign--style">$</span>16.00
+          <span className="range__amountDollarSign--style">$</span>{value}.00
         </h1>
         <input
           className="range__inputRange--style"
