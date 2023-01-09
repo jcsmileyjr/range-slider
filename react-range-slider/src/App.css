@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
 .App {
   display: flex;
   justify-content: center;
@@ -13,7 +15,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
+  padding: 20px 0;
+  font-family: Source Sans Pro;
   border: 1px solid white; /*TESTING ONLY*/
 }
 
@@ -29,7 +32,7 @@ h1 {
 .range__inputRange--style {
 	-webkit-appearance: none;
 	height: 7px;
-	background: grey;
+	background: #5b5b5b;
 	border-radius: 5px;
 	background-image: linear-gradient(#d46a6a, #d46a6a);
 	background-repeat: no-repeat;
@@ -45,14 +48,21 @@ input[type='range']::-webkit-slider-thumb {
 	box-shadow: 0 0 2px 0 #555;
 }
 
-
-
-
-
 .range__inputRange--style:hover {
   opacity: 1;
   cursor: pointer;
 } 
+
+
+.range__buyButton--style {
+  border-radius: 25px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  background-color: #5b5b5b;
+  color: white;
+  letter-spacing: .1em;
+}
 
 @media only screen and (max-width:600px){
   .App {
