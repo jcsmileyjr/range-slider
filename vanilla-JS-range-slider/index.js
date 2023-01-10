@@ -6,5 +6,5 @@ const amount = document.querySelector('#amount');
  */
 inputRange.addEventListener('change', function (event) {
     amount.innerHTML= event.target.value;
-    inputRange.style.backgroundSize = `${(event.target.value * 100) / 20}% 100%`;
+    inputRange.style.backgroundSize = `${((event.target.value * 100) / 20) -1}% 100%`;
 });
