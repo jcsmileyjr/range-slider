@@ -27,8 +27,13 @@ A future goal is to rebuild the project with TypeScript.
 - Twitter - [@JCSmiley4](https://twitter.com/JCSmiley4)
 - LinkedIn - [jcsmileyjr](https://www.linkedin.com/in/jcsmileyjr/)
 
-### resources
+## resources
+### Styles
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 - https://www.w3schools.com/howto/howto_js_rangeslider.asp
 - https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/
 - https://relatablecode.com/how-to-make-a-simple-slider-component-in-react
+
+### JS
+- https://vanillajstoolkit.com/reference/event-listeners/addeventlistener/
+- https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/
