@@ -26,11 +26,22 @@ main {
 
 h1 {
 color: gold;
+margin-bottom: 0;
 }
 
 .range__amountDollarSign--style {
     vertical-align: super;
     font-size: large;
+}
+
+#amount::before {
+    content:'$';
+    vertical-align: super;
+    font-size: medium;
+}
+
+#amount::after {
+    content:'.00'
 }
   
 .range__inputRange--style {

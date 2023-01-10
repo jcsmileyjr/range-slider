@@ -33,6 +33,7 @@ A future goal is to rebuild the project with TypeScript.
 - https://www.w3schools.com/howto/howto_js_rangeslider.asp
 - https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/
 - https://relatablecode.com/how-to-make-a-simple-slider-component-in-react
+- https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 
 ### JS
 - https://vanillajstoolkit.com/reference/event-listeners/addeventlistener/
